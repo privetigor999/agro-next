@@ -12,7 +12,7 @@ export default function Spanbond() {
   const images = [spanbondPng, fieldPng];
   return (
     <HeadLayout
-      title={"Главная"}
+      title={"О компании"}
       keywords={"Агросфера,спанбонд,spanbond"}
       description={
         "Продажа спанбонда оптом. Белый и цветной материал различной плотности и ширины"
