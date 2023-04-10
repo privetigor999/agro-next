@@ -1,0 +1,18 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@font-face {
+  font-family: "HeliosCond";
+  src: url("./../../public/fonts/helioscondc_bold.otf");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+
+  box-sizing: border-box;
+}
