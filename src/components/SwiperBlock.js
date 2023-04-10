@@ -25,6 +25,7 @@ export const SwiperBlock = ({ images }) => {
               className="w-full h-[194px] md:h-[330px] lg:h-[590px] object-cover"
               src={image}
               alt="field"
+              priority={i === 0 ? true : false}
             />
           </SwiperSlide>
         ))}
